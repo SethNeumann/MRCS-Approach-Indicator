@@ -1,10 +1,4 @@
-### How to use this template:
-
-  1. Create a repo using this template, 
-  2. Create your project content using eagle...
-  3. Edit the other text files to describe your project
-  4. git add .
-  5. git commit -m "add to git"
-  6. git tag -a 1.0 -m 1.0
-  7. git push origin 1.0
-  
+The approach indicator supports up to 4 stations, each with 2 sensors on each side (that is an East home, East distant and West Home West distant).  THese are optical
+sensors connected to analog inputs of the Arduino Nano.  By checking the sequence in which the sensors are covered the sketch (by Jon Schmidt) sets a directional stick
+and only fires it's output (relay contact closure) on inbound trains.  The Arduino monitors ambient light and continuously re-calibrates.  An additional two stations are
+provided with digital inputs, the user supplies complete detector units such as the MRCS EOPD or EOPDx4 for train detection.
