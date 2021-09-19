@@ -164,15 +164,15 @@ Jon Schmidt</text>
 <text x="70.485" y="41.91" size="1.4224" layer="51" font="vector">V1.0 20210828</text>
 <text x="64.135" y="31.75" size="1.778" layer="51" font="vector">Arduino Nano</text>
 <text x="7.62" y="59.055" size="1.778" layer="22" rot="MR270">Solder Side</text>
-<text x="52.705" y="-1.27" size="1.4224" layer="21" font="vector" ratio="10">W + W + E + E +
+<text x="52.705" y="1.27" size="1.27" layer="21" font="vector" ratio="10">W + W + E + E +
 N 5 N 5 S 5 S 5
 D   H   D   H
 </text>
-<text x="73.025" y="-1.27" size="1.4224" layer="21" font="vector" ratio="10">W + W + E + E +
+<text x="73.025" y="1.27" size="1.27" layer="21" font="vector" ratio="10">W + W + E + E +
 N 5 N 5 S 5 S 5
 D   H   D   H
 </text>
-<text x="24.13" y="-1.27" size="1.4224" layer="21" font="vector" ratio="10">G + G + 4 3 2 1
+<text x="24.13" y="0.635" size="1.27" layer="21" font="vector" ratio="10">G + G + 4 3 2 1
 N 5 N 5
 D   D  
 </text>
@@ -928,13 +928,25 @@ design rules under a new name.</description>
 <element name="CON2" library="SPCoast" package="1X04_LOCK" value="GND Jumpers" x="55.88" y="63.5" smashed="yes">
 <attribute name="VALUE" x="54.61" y="57.15" size="1.27" layer="27"/>
 </element>
-<element name="R1" library="SPCoast" package="AXIAL-0.4-RES" value="470" x="11.43" y="57.15" rot="R90"/>
+<element name="R1" library="SPCoast" package="AXIAL-0.4-RES" value="470" x="11.43" y="57.15" smashed="yes" rot="R90">
+<attribute name="NAME" x="10.16" y="54.61" size="1.016" layer="25" rot="R90"/>
+<attribute name="VALUE" x="11.938" y="55.118" size="0.8128" layer="21" ratio="15" rot="R90"/>
+</element>
 <element name="LED1" library="SPCoast" package="LED3MM" value="RED" x="6.985" y="52.07"/>
-<element name="R2" library="SPCoast" package="AXIAL-0.4-RES" value="470" x="26.035" y="56.515"/>
+<element name="R2" library="SPCoast" package="AXIAL-0.4-RES" value="470" x="26.035" y="56.515" smashed="yes">
+<attribute name="NAME" x="23.495" y="57.785" size="1.016" layer="25"/>
+<attribute name="VALUE" x="24.003" y="56.007" size="0.8128" layer="21" ratio="15"/>
+</element>
 <element name="LED2" library="SPCoast" package="LED3MM" value="RED" x="19.685" y="52.07"/>
-<element name="R3" library="SPCoast" package="AXIAL-0.4-RES" value="470" x="39.37" y="56.515"/>
+<element name="R3" library="SPCoast" package="AXIAL-0.4-RES" value="470" x="39.37" y="56.515" smashed="yes">
+<attribute name="NAME" x="36.83" y="57.785" size="1.016" layer="25"/>
+<attribute name="VALUE" x="37.338" y="56.007" size="0.8128" layer="21" ratio="15"/>
+</element>
 <element name="LED3" library="SPCoast" package="LED3MM" value="RED" x="31.75" y="52.07"/>
-<element name="R4" library="SPCoast" package="AXIAL-0.4-RES" value="470" x="53.975" y="52.07"/>
+<element name="R4" library="SPCoast" package="AXIAL-0.4-RES" value="470" x="53.975" y="52.07" smashed="yes">
+<attribute name="NAME" x="51.435" y="53.34" size="1.016" layer="25"/>
+<attribute name="VALUE" x="51.943" y="51.562" size="0.8128" layer="21" ratio="15"/>
+</element>
 <element name="LED4" library="SPCoast" package="LED3MM" value="RED" x="42.545" y="52.07"/>
 </elements>
 <signals>
@@ -971,10 +983,10 @@ design rules under a new name.</description>
 </signal>
 <signal name="5V" class="1">
 <polygon width="0.6096" layer="1" isolate="0.6096">
-<vertex x="0" y="68.58"/>
-<vertex x="100.33" y="68.58"/>
-<vertex x="100.33" y="0"/>
-<vertex x="0" y="0"/>
+<vertex x="2.54" y="69.85"/>
+<vertex x="101.6" y="69.85"/>
+<vertex x="102.87" y="1.27"/>
+<vertex x="2.54" y="1.27"/>
 </polygon>
 <contactref element="J2" pad="2"/>
 <contactref element="J3" pad="7"/>
