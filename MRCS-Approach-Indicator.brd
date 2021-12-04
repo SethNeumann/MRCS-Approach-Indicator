@@ -161,7 +161,7 @@
 <text x="95.25" y="59.69" size="2.54" layer="51" font="vector" rot="R270">MRCS Approach Indicator</text>
 <text x="84.455" y="48.895" size="1.27" layer="51" font="vector" rot="R180">Seth Neumann
 Jon Schmidt</text>
-<text x="70.485" y="41.91" size="1.4224" layer="51" font="vector">V1.0 20210828</text>
+<text x="70.485" y="41.91" size="1.4224" layer="51" font="vector">V1.1 20211202</text>
 <text x="64.135" y="31.75" size="1.778" layer="51" font="vector">Arduino Nano</text>
 <text x="7.62" y="59.055" size="1.778" layer="22" rot="MR270">Solder Side</text>
 <text x="52.705" y="1.27" size="1.27" layer="21" font="vector" ratio="10">W + W + E + E +
@@ -172,15 +172,15 @@ D   H   D   H
 N 5 N 5 S 5 S 5
 D   H   D   H
 </text>
-<text x="24.13" y="0.635" size="1.27" layer="21" font="vector" ratio="10">G + G + 4 3 2 1
+<text x="24.13" y="0.635" size="1.27" layer="21" font="vector" ratio="10">G + G + 3 2 1 0
 N 5 N 5
 D   D  
 </text>
-<text x="17.78" y="66.04" size="1.4224" layer="21" font="vector" ratio="10">4O4C3O3C2O2C1O1C</text>
-<text x="69.85" y="62.23" size="1.4224" layer="21" font="vector" ratio="10">3 3 3 3 2 2 2 2
-S S N N S S N N
+<text x="17.78" y="66.04" size="1.4224" layer="21" font="vector" ratio="10">3O3C2O2C1O1C0O0C</text>
+<text x="69.85" y="62.23" size="1.4224" layer="21" font="vector" ratio="10">W W E E W W E E
+3 3 3 3 2 2 2 2
 H D H D H D H D</text>
-<text x="55.245" y="66.04" size="1.4224" layer="21" font="vector" ratio="10">4 3 2 1</text>
+<text x="55.245" y="66.04" size="1.4224" layer="21" font="vector" ratio="10">0 1 2 3</text>
 </plain>
 <libraries>
 <library name="SPCoast">
@@ -883,7 +883,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="66.5988" y="58.9788" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="71.12" y="52.07" size="1.778" layer="27"/>
 </element>
-<element name="K1" library="relay" package="G6H2-100" value="G6H2-100" x="9.525" y="41.275" rot="R90">
+<element name="K3" library="relay" package="G6H2-100" value="G6H2-100" x="9.525" y="41.275" rot="R90">
 <attribute name="OC_NEWARK" value="unknown" x="9.525" y="41.275" size="1.778" layer="27" font="vector" ratio="10" rot="R90" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="9.525" y="41.275" size="1.778" layer="27" font="vector" ratio="10" rot="R90" display="off"/>
 <attribute name="MF" value="" x="9.525" y="41.275" size="1.778" layer="27" font="vector" ratio="10" rot="R90" display="off"/>
@@ -895,13 +895,13 @@ design rules under a new name.</description>
 <attribute name="MF" value="" x="21.59" y="41.275" size="1.778" layer="27" font="vector" ratio="10" rot="R90" display="off"/>
 <attribute name="MPN" value="" x="21.59" y="41.275" size="1.778" layer="27" font="vector" ratio="10" rot="R90" display="off"/>
 </element>
-<element name="K3" library="relay" package="G6H2-100" value="G6H2-100" x="33.655" y="41.275" rot="R90">
+<element name="K1" library="relay" package="G6H2-100" value="G6H2-100" x="33.655" y="41.275" rot="R90">
 <attribute name="OC_NEWARK" value="unknown" x="33.655" y="41.275" size="1.778" layer="27" font="vector" ratio="10" rot="R90" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="33.655" y="41.275" size="1.778" layer="27" font="vector" ratio="10" rot="R90" display="off"/>
 <attribute name="MF" value="" x="33.655" y="41.275" size="1.778" layer="27" font="vector" ratio="10" rot="R90" display="off"/>
 <attribute name="MPN" value="" x="33.655" y="41.275" size="1.778" layer="27" font="vector" ratio="10" rot="R90" display="off"/>
 </element>
-<element name="K4" library="relay" package="G6H2-100" value="G6H2-100" x="45.72" y="41.275" rot="R90">
+<element name="K0" library="relay" package="G6H2-100" value="G6H2-100" x="45.72" y="41.275" rot="R90">
 <attribute name="OC_NEWARK" value="unknown" x="45.72" y="41.275" size="1.778" layer="27" font="vector" ratio="10" rot="R90" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="45.72" y="41.275" size="1.778" layer="27" font="vector" ratio="10" rot="R90" display="off"/>
 <attribute name="MF" value="" x="45.72" y="41.275" size="1.778" layer="27" font="vector" ratio="10" rot="R90" display="off"/>
@@ -932,7 +932,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="10.16" y="54.61" size="1.016" layer="25" rot="R90"/>
 <attribute name="VALUE" x="11.938" y="55.118" size="0.8128" layer="21" ratio="15" rot="R90"/>
 </element>
-<element name="LED1" library="SPCoast" package="LED3MM" value="RED" x="6.985" y="52.07"/>
+<element name="LED3" library="SPCoast" package="LED3MM" value="RED" x="6.985" y="52.07"/>
 <element name="R2" library="SPCoast" package="AXIAL-0.4-RES" value="470" x="26.035" y="56.515" smashed="yes">
 <attribute name="NAME" x="23.495" y="57.785" size="1.016" layer="25"/>
 <attribute name="VALUE" x="24.003" y="56.007" size="0.8128" layer="21" ratio="15"/>
@@ -942,12 +942,12 @@ design rules under a new name.</description>
 <attribute name="NAME" x="36.83" y="57.785" size="1.016" layer="25"/>
 <attribute name="VALUE" x="37.338" y="56.007" size="0.8128" layer="21" ratio="15"/>
 </element>
-<element name="LED3" library="SPCoast" package="LED3MM" value="RED" x="31.75" y="52.07"/>
+<element name="LED1" library="SPCoast" package="LED3MM" value="RED" x="31.75" y="52.07"/>
 <element name="R4" library="SPCoast" package="AXIAL-0.4-RES" value="470" x="53.975" y="52.07" smashed="yes">
 <attribute name="NAME" x="51.435" y="53.34" size="1.016" layer="25"/>
 <attribute name="VALUE" x="51.943" y="51.562" size="0.8128" layer="21" ratio="15"/>
 </element>
-<element name="LED4" library="SPCoast" package="LED3MM" value="RED" x="42.545" y="52.07"/>
+<element name="LED0" library="SPCoast" package="LED3MM" value="RED" x="42.545" y="52.07"/>
 </elements>
 <signals>
 <signal name="GND" class="1">
@@ -958,23 +958,23 @@ design rules under a new name.</description>
 <vertex x="0" y="68.58"/>
 <vertex x="100.33" y="68.58"/>
 <vertex x="100.33" y="0"/>
-<vertex x="0" y="0"/>
+<vertex x="0" y="1.27"/>
 </polygon>
 <contactref element="NANO" pad="GND1"/>
 <contactref element="J2" pad="1"/>
-<contactref element="K1" pad="10"/>
-<contactref element="K2" pad="10"/>
 <contactref element="K3" pad="10"/>
-<contactref element="K4" pad="10"/>
+<contactref element="K2" pad="10"/>
+<contactref element="K1" pad="10"/>
+<contactref element="K0" pad="10"/>
 <contactref element="RN1" pad="1"/>
 <contactref element="CON1" pad="1"/>
 <contactref element="CON1" pad="2"/>
 <contactref element="CON1" pad="3"/>
 <contactref element="CON1" pad="4"/>
-<contactref element="K1" pad="P2"/>
-<contactref element="K2" pad="P2"/>
 <contactref element="K3" pad="P2"/>
-<contactref element="K4" pad="P2"/>
+<contactref element="K2" pad="P2"/>
+<contactref element="K1" pad="P2"/>
+<contactref element="K0" pad="P2"/>
 <contactref element="J2" pad="3"/>
 <contactref element="D1" pad="A"/>
 <contactref element="D2" pad="A"/>
@@ -1033,7 +1033,7 @@ design rules under a new name.</description>
 <wire x1="48.895" y1="5.715" x2="47.625" y2="4.445" width="0.3048" layer="16"/>
 <wire x1="47.625" y1="4.445" x2="36.195" y2="4.445" width="0.3048" layer="16"/>
 <wire x1="36.195" y1="4.445" x2="34.925" y2="5.715" width="0.3048" layer="16"/>
-<contactref element="K1" pad="1"/>
+<contactref element="K3" pad="1"/>
 <contactref element="J2" pad="5"/>
 <wire x1="34.925" y1="5.715" x2="34.925" y2="10.287" width="0.3048" layer="16"/>
 <contactref element="D1" pad="C"/>
@@ -1049,7 +1049,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="N$2">
 <contactref element="NANO" pad="D10"/>
-<contactref element="K4" pad="1"/>
+<contactref element="K0" pad="1"/>
 <wire x1="49.53" y1="36.195" x2="52.705" y2="38.735" width="0.3048" layer="1"/>
 <contactref element="J2" pad="8"/>
 <contactref element="D4" pad="C"/>
@@ -1190,7 +1190,7 @@ design rules under a new name.</description>
 <wire x1="71.12" y1="53.34" x2="71.12" y2="59.182" width="0.3048" layer="1"/>
 </signal>
 <signal name="N$7">
-<contactref element="K1" pad="S1"/>
+<contactref element="K3" pad="S1"/>
 <contactref element="J6" pad="1"/>
 <wire x1="19.685" y1="63.627" x2="13.335" y2="57.15" width="0.3048" layer="1"/>
 <wire x1="13.335" y1="43.815" x2="12.065" y2="43.815" width="0.3048" layer="1"/>
@@ -1202,7 +1202,7 @@ design rules under a new name.</description>
 <wire x1="13.335" y1="50.8" x2="13.335" y2="57.15" width="0.3048" layer="1"/>
 </signal>
 <signal name="N$22">
-<contactref element="K1" pad="P1"/>
+<contactref element="K3" pad="P1"/>
 <contactref element="J6" pad="2"/>
 <contactref element="CON2" pad="4"/>
 <wire x1="13.335" y1="41.275" x2="14.605" y2="41.275" width="0.3048" layer="1"/>
@@ -1239,7 +1239,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="N$21">
 <contactref element="J6" pad="5"/>
-<contactref element="K3" pad="S1"/>
+<contactref element="K1" pad="S1"/>
 <wire x1="37.465" y1="43.815" x2="36.83" y2="43.815" width="0.3048" layer="1"/>
 <wire x1="36.83" y1="43.815" x2="34.29" y2="46.355" width="0.3048" layer="1"/>
 <wire x1="34.29" y1="46.355" x2="34.29" y2="50.8" width="0.3048" layer="1"/>
@@ -1253,7 +1253,7 @@ design rules under a new name.</description>
 <signal name="N$23">
 <contactref element="CON2" pad="2"/>
 <contactref element="J6" pad="6"/>
-<contactref element="K3" pad="P1"/>
+<contactref element="K1" pad="P1"/>
 <wire x1="37.465" y1="41.275" x2="38.1" y2="41.275" width="0.3048" layer="1"/>
 <wire x1="38.1" y1="41.275" x2="39.37" y2="42.545" width="0.3048" layer="1"/>
 <wire x1="39.37" y1="42.545" x2="39.37" y2="53.975" width="0.3048" layer="1"/>
@@ -1271,7 +1271,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="N$25">
 <contactref element="CON2" pad="1"/>
-<contactref element="K4" pad="P1"/>
+<contactref element="K0" pad="P1"/>
 <contactref element="J6" pad="8"/>
 <wire x1="37.465" y1="63.373" x2="55.626" y2="63.373" width="0.3048" layer="16"/>
 <wire x1="55.626" y1="63.373" x2="55.88" y2="63.627" width="0.3048" layer="16"/>
@@ -1283,7 +1283,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="N$24">
 <contactref element="J6" pad="7"/>
-<contactref element="K4" pad="S1"/>
+<contactref element="K0" pad="S1"/>
 <wire x1="49.53" y1="43.815" x2="48.26" y2="43.815" width="0.3048" layer="1"/>
 <wire x1="48.26" y1="43.815" x2="46.99" y2="45.085" width="0.3048" layer="1"/>
 <wire x1="46.99" y1="45.085" x2="46.99" y2="59.69" width="0.3048" layer="1"/>
@@ -1293,17 +1293,17 @@ design rules under a new name.</description>
 <wire x1="36.83" y1="61.722" x2="34.925" y2="63.627" width="0.3048" layer="1"/>
 </signal>
 <signal name="N$27">
-<contactref element="LED1" pad="A"/>
+<contactref element="LED3" pad="A"/>
 <contactref element="R1" pad="P$1"/>
 <wire x1="8.255" y1="52.07" x2="11.43" y2="52.07" width="0.3048" layer="1"/>
 </signal>
 <signal name="N$26">
-<contactref element="K1" pad="S2"/>
-<contactref element="LED1" pad="K"/>
+<contactref element="K3" pad="S2"/>
+<contactref element="LED3" pad="K"/>
 <wire x1="5.715" y1="43.815" x2="4.445" y2="43.815" width="0.3048" layer="1"/>
-<wire x1="4.445" y1="43.815" x2="2.54" y2="45.72" width="0.3048" layer="1"/>
-<wire x1="2.54" y1="45.72" x2="2.54" y2="49.53" width="0.3048" layer="1"/>
-<wire x1="2.54" y1="49.53" x2="5.715" y2="52.07" width="0.3048" layer="1"/>
+<wire x1="4.445" y1="43.815" x2="3.81" y2="44.45" width="0.3048" layer="1"/>
+<wire x1="3.81" y1="44.45" x2="3.81" y2="50.8" width="0.3048" layer="1"/>
+<wire x1="3.81" y1="50.8" x2="5.715" y2="52.07" width="0.3048" layer="1"/>
 </signal>
 <signal name="N$28">
 <contactref element="LED2" pad="A"/>
@@ -1320,14 +1320,14 @@ design rules under a new name.</description>
 <wire x1="20.32" y1="46.99" x2="18.415" y2="48.895" width="0.3048" layer="1"/>
 </signal>
 <signal name="N$30">
-<contactref element="LED3" pad="A"/>
+<contactref element="LED1" pad="A"/>
 <contactref element="R3" pad="P$1"/>
 <wire x1="33.02" y1="52.07" x2="34.29" y2="53.34" width="0.3048" layer="1"/>
 <wire x1="34.29" y1="53.34" x2="34.29" y2="56.515" width="0.3048" layer="1"/>
 </signal>
 <signal name="N$31">
-<contactref element="LED3" pad="K"/>
-<contactref element="K3" pad="S2"/>
+<contactref element="LED1" pad="K"/>
+<contactref element="K1" pad="S2"/>
 <wire x1="29.845" y1="43.815" x2="29.21" y2="43.815" width="0.3048" layer="1"/>
 <wire x1="30.48" y1="52.07" x2="30.48" y2="50.165" width="0.3048" layer="1"/>
 <wire x1="30.48" y1="50.165" x2="32.385" y2="48.26" width="0.3048" layer="1"/>
@@ -1337,13 +1337,13 @@ design rules under a new name.</description>
 <wire x1="31.115" y1="43.815" x2="29.845" y2="43.815" width="0.3048" layer="1"/>
 </signal>
 <signal name="N$32">
-<contactref element="LED4" pad="A"/>
+<contactref element="LED0" pad="A"/>
 <contactref element="R4" pad="P$1"/>
 <wire x1="43.815" y1="52.07" x2="48.895" y2="52.07" width="0.3048" layer="16"/>
 </signal>
 <signal name="N$33">
-<contactref element="LED4" pad="K"/>
-<contactref element="K4" pad="S2"/>
+<contactref element="LED0" pad="K"/>
+<contactref element="K0" pad="S2"/>
 <wire x1="41.91" y1="43.815" x2="41.275" y2="43.815" width="0.3048" layer="1"/>
 <wire x1="41.275" y1="52.07" x2="44.45" y2="48.895" width="0.3048" layer="1"/>
 <wire x1="44.45" y1="48.895" x2="44.45" y2="45.085" width="0.3048" layer="1"/>
@@ -1352,7 +1352,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="N$34">
 <contactref element="NANO" pad="D11"/>
-<contactref element="K3" pad="1"/>
+<contactref element="K1" pad="1"/>
 <wire x1="58.42" y1="38.1" x2="58.42" y2="32.385" width="0.3048" layer="16"/>
 <wire x1="58.42" y1="32.385" x2="53.34" y2="27.305" width="0.3048" layer="16"/>
 <wire x1="53.34" y1="27.305" x2="40.64" y2="27.305" width="0.3048" layer="16"/>
